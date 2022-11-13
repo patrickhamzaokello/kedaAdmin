@@ -5,7 +5,7 @@ $con = $db->getConnString();
 
 include('session.php');
 include('queries/statsquery.php');
-require "../includes/classes/Artist.php";
+require "classes/Artist.php";
 include('queries/artist_verified_query.php');
 
 ?>
